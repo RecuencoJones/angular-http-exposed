@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="node_modules/angular/angular.min.js"></script>
+
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <script>
+      http({
+        url: 'http://localhost:9001/api/foo'
+      }).success(function(data) {
+        document.write(JSON.stringify(data, null, 2));
+      });
+    </script>
+  </body>
+</html>

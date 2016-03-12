@@ -1,0 +1,16 @@
+{
+  "name": "angular-http-exposed",
+  "version": "1.0.0",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "CHANGELOG.md",
+    "README.md"
+  ],
+  "dependencies": {
+    "angular": "1.4.5"
+  },
+  "devDependencies": {
+    "express": "4.13.3"
+  }
+}
